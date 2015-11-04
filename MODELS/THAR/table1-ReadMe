@@ -1,0 +1,78 @@
+J/A+A/468/1115     Thorium and argon lines in the visible   (Lovis+, 2007)
+================================================================================
+A new list of thorium and argon spectral lines in the visible.
+    Lovis C., Pepe F.
+   <Astron. Astrophys. 468, 1115 (2007)>
+   =2007A&A...468.1115L
+================================================================================
+ADC_Keywords: Atomic physics ; Spectroscopy
+Keywords: atomic data - techniques: spectroscopic - atlases - catalogs
+
+Abstract:
+    We present a new list of thorium and argon emission lines in the
+    visible obtained by analyzing high-resolution (R=110000) spectra
+    of a ThAr hollow cathode lamp. The aim of this new line list is to
+    allow significant improvements in the quality of wavelength
+    calibration for medium- to high-resolution astronomical spectrographs.
+
+    We use a series of ThAr lamp exposures obtained with the HARPS
+    instrument (High Accuracy Radial-velocity Planet Searcher) to detect
+    previously unknown lines, perform a systematic search for blended
+    lines and correct individual wavelengths by determining the systematic
+    offset of each line relative to the average wavelength solution.
+
+Description:
+    This thorium and argon line list has been derived from ThAr spectra
+    obtained with the HARPS instrument at the ESO-3.6m telescope at La
+    Silla Observatory. It contains the updated wavelengths of 8442 lines
+    between 3785 and 6915{AA}, with a typical accuracy of 10m/s (3.3 parts
+    in 10^8^ or 0.18m{AA}). Line intensities, previously-known wavelengths
+    and identifications are also provided.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table1.dat     60     8442   Thorium and argon line list
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label       Explanations
+--------------------------------------------------------------------------------
+   1- 11  F11.6 0.1nm     Lambda      Vacuum wavelength
+  13- 20  F8.6  0.1nm   e_Lambda      Uncertainty on wavelength
+  22- 32  F11.5 cm-1      Wavenumber  Wavenumber (1/Lambda)
+  34- 40  I7    ---       Intensity   Line peak intensity (in e^-^)
+  42- 52  F11.6 0.1nm     preLambda   ? Previously-known wavelength
+  55- 60  A6    ---       ID          Line identification (1)
+--------------------------------------------------------------------------------
+Note (1): ID as follows:
+     ThI  = ThI from Palmer & Engleman (1983, Atlas of the Thorium spectrum)
+     ThII = ThII from Palmer & Engleman (1983, Atlas of the Thorium spectrum)
+    ThIII = ThIII from Palmer & Engleman (1983, Atlas of the Thorium spectrum)
+     NoID = Not identified by Palmer & Engleman
+            (1983, Atlas of the Thorium spectrum) (probably Th)
+   Contam = Contaminant from Palmer & Engleman
+            (1983, Atlas of the Thorium spectrum)
+     ArI  = ArI from Norlen (1973PhyS....8..249N) and
+            Whaling et al. (1995JQSRT..53....1W, 2002, JRES , 107, 149)
+     ArII = ArII from Norlen (1973PhyS....8..249N) and
+            Whaling et al. (1995JQSRT..53....1W, 2002, JRES, 107, 149)
+        ? = Previously-unknown line
+--------------------------------------------------------------------------------
+
+References:
+  Norlen, G. 1973, Phys. Scr, 8, 249
+  Palmer, B.A. & Engleman, R. 1983, Atlas of the Thorium spectrum (Los Alamos
+    National Laboratory Report, LA-9615)
+  Whaling, W., Anderson, W.H.C., Carle, M.T., et al., 1995, Journal of
+    Quantitative Spectroscopy and Radiative Transfer, 53, 1
+  Whaling, W., Anderson, W.H.C., Carle, M.T., et al., 2002, Journal of Research
+    of the National Institute of Standards and Technology, 107, 149
+
+Acknowledgements:
+    Christophe Lovis, christophe.lovis(at)obs.unige.ch
+================================================================================
+(End) Christophe Lovis [Geneva Observatory], Patricia Vannier [CDS]  19-Mar-2007

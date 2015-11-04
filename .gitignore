@@ -1,0 +1,9 @@
+*.pyc
+*~
+*.npy
+*.so
+*.so.dSYM
+*.args
+*.txt
+.DS_Store
+!DATA/*txt
